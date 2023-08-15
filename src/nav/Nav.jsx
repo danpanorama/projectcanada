@@ -1,5 +1,6 @@
 import "../App.css";
 import "../css/nav.css";
+import NavLinks from "./NavLinks";
 
 function Nav() {
   return (
@@ -11,16 +12,16 @@ function Nav() {
 
         <div className="BoxNav flexRow">
           <div className="SocialButtonsBox flexRow center">
-            <div className="socialButtons">a</div>
-            <div className="socialButtons">b</div>
+            <div className="socialButtons marginRight">a</div>
+            <div className="socialButtons marginRight">b</div>
             <div className="socialButtons">c</div>
           </div>
           <div className="Slogen flexRow center">
-            <div className="callBtn">btn</div>
+            <div className="callBtn flexCol center">btn</div>
             <div className="SlogenSide">
               <p className="SlogenParegraph flexRow">
-                <span className="Buld">24/7</span>
-                EMERGENCY LINE
+                <span className="Buld">24/7  </span>
+                 EMERGENCY LINE
               </p>
               <p className="PhonNumber">
                 <h2 className="PhonNumberH2">720-455-5467</h2>
@@ -29,6 +30,7 @@ function Nav() {
           </div>
         </div>
       </div>
+      <NavLinks/>
     </div>
   );
 }

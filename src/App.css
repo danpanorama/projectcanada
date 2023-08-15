@@ -6,6 +6,9 @@ flex-direction: row;
   justify-content: center;
   align-items: center;
 }
+.acenter{
+  align-items: center;
+}
 .flexCol{
   display: flex;
   flex-direction: column;
@@ -18,4 +21,22 @@ flex-direction: row;
 }
 .bet{
   justify-content: space-between;
+}
+.cw{
+  color: white;
+}
+.marginBottom{
+  margin-bottom: 12px;
+}
+.marginTop70{
+  margin-top: 70px;
+}
+.marginRight{
+  margin-right: 20px;
+}
+.marginRight10{
+  margin-right: 10px;
+}
+.cy{
+ color: rgb(255, 174, 0);
 }

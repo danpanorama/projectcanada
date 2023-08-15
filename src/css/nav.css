@@ -4,9 +4,9 @@
 }
 
 .SocialButtonsBox{
-    margin-right: 50px;
-    border-right: 1px solid black;
-    border-left: 1px solid black;
+   
+    border-right: 1px solid rgb(132, 132, 132);
+    border-left: 1px solid rgb(129, 129, 129);
     padding-left: 20px;
     padding-right: 20px;
     
@@ -14,4 +14,37 @@
 }
 .socialButtons{
     
+}
+.callBtn{
+    margin-left: 25px ;
+    margin-right: 25px;
+    border: 1px solid black;
+    min-height: 65px;
+    min-width: 65px;
+    border-radius: 50%;
+}
+
+.SlogenParegraph{
+    margin-bottom: 12px;
+}
+
+.socialButtons{
+    border: 1px solid black;
+    border-radius: 50%;
+    min-height: 30px;
+    min-width: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.link{
+    margin-right: 60px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+.allNav_Links{
+    background-color: #1A91CB;
+    height: 5vh;
 }
