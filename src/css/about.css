@@ -1,0 +1,77 @@
+.gridAbout{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 50px;
+}
+.headerLogo{
+  
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        color: #3a4c5d;
+        margin: 0 0 10px 0;
+        text-transform: uppercase;
+  
+}
+
+.detailsLogos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.textLogo{
+    color: gray;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.aboutSection{
+    margin-bottom: 76px;
+}
+.blue-btn{
+    display: inline-block;
+    width: 230px;
+    padding: 15px 0;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    background-color: #27b5fb;
+}
+.grey-btn {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    display: inline-block;
+    background: #8c999f;
+    line-height: 50px;
+    border-radius: 3px;
+    display: inline-block;
+    width: 230px;
+    margin: 0 32px 0 0;
+}
+
+.serviceBTN{
+    padding-bottom: 86px;
+    border-bottom: solid 1px #dfdfdf;
+}
+
+.h5 {
+    line-height: 18px;
+    font-size: 14px;
+    text-align: center;
+    color: #ffc800;
+    font-weight: 400;
+    margin-bottom: 58px;
+}
+.h4 {
+    line-height: 41px;
+    font-size: 30px;
+    text-align: center;
+    color: #8c999f;
+    margin: 0 0 6px 0;
+    font-weight: 400;
+}
