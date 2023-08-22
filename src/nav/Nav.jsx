@@ -5,7 +5,7 @@ import NavLinks from "./NavLinks";
 function Nav() {
   return (
     <div className="All_Nav w100 flexCol center">
-      <div className="NavBar flexRow bet w70">
+      <div className="NavBar flexRow bet w70Nav">
         <div className="logo">
           <h1>logo</h1>
         </div>
@@ -24,7 +24,7 @@ function Nav() {
                  EMERGENCY LINE
               </p>
               <p className="PhonNumber">
-                <h2 className="PhonNumberH2">720-455-5467</h2>
+                <h1 className="PhonNumberH2">720-455-5467</h1>
               </p>
             </div>
           </div>

@@ -12,3 +12,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@media only screen and (min-width: 1400px) {
+  .w70{
+    width: 90% !important;
+  }
+
+ 
+  }

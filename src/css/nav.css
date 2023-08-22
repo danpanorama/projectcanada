@@ -1,26 +1,30 @@
 .NavBar{
     padding-top:40px ;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
+    min-height: 12vh;
+    margin-top: 30px;
+    
 }
 
 .SocialButtonsBox{
-   
     border-right: 1px solid rgb(132, 132, 132);
     border-left: 1px solid rgb(129, 129, 129);
-    padding-left: 20px;
-    padding-right: 20px;
-    
+    padding-left: 40px;
+    padding-right: 40px;
 
 }
 .socialButtons{
     
 }
+.w70Nav{
+    width: 90%;
+}
 .callBtn{
-    margin-left: 25px ;
+    margin-left: 55px ;
     margin-right: 25px;
     border: 1px solid black;
-    min-height: 65px;
-    min-width: 65px;
+    min-height: 85px;
+    min-width: 85px;
     border-radius: 50%;
 }
 
@@ -31,8 +35,8 @@
 .socialButtons{
     border: 1px solid black;
     border-radius: 50%;
-    min-height: 30px;
-    min-width: 30px;
+    min-height: 50px;
+    min-width: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;

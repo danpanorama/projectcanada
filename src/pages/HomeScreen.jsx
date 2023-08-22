@@ -1,5 +1,6 @@
 import Opening from '../components/home/Opening';
 import '../App.css';
+// import '../css/mediaquery.css'
 
 function HomeScreen() {
   return (
