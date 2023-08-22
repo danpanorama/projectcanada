@@ -50,5 +50,5 @@
 }
 .allNav_Links{
     background-color: #1A91CB;
-    height: 5vh;
+    min-height: 8vh;
 }
