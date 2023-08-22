@@ -21,9 +21,13 @@
     align-items: center;
 }
 .textLogo{
-    color: gray;
+    
     text-align: center;
     margin-top: 10px;
+
+    font-size: 14px;
+    color: #8c999f;
+    padding: 0 20px;
 }
 
 .aboutSection{
@@ -56,6 +60,8 @@
 
 .serviceBTN{
     padding-bottom: 86px;
+}
+.borderBottom{
     border-bottom: solid 1px #dfdfdf;
 }
 
@@ -80,7 +86,7 @@
 .h1HeaderDetails{
     line-height: 41px;
     font-size: 30px;
-    text-align: center;
+
     color: #8c999f;
     margin: 0 0 6px 0;
     font-weight: 400;
@@ -131,8 +137,10 @@
         vertical-align: bottom;
         max-width: 100%;
         box-shadow: 7px 7px 20px 0 rgba(0, 0, 0, 0.2);
-   
+        display: block;
+        height: auto;
 }
+
 .imageDiv{
     
         position: relative;
@@ -146,6 +154,7 @@
 .choose-rowlock {
     margin-bottom: 50px;
     display: table;
+    
 }
 .descriptionh4 {
     text-align: left;
@@ -183,4 +192,12 @@
     background-color: rgba(148, 197, 214, 0.1);
     float: left;
     padding: 53px 98px;
+}
+
+.choose-rowh5 {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 23px;
+    text-align: left;
+    color: #8c999f;
 }

@@ -1,5 +1,5 @@
 .openImage{
-    height: 80vh;
+    height: 60vh;
     width: 100%;
     background-image: linear-gradient(to right,#75abbec0,#215369d6), url('../images/toronto.jpg');
     background-size: cover;
@@ -18,8 +18,8 @@
     border: none;
     color: white;
     border-radius: 5px;
-    
-    font-size: 1.3rem;
+    font-weight: 500;
+    font-size: 1.2rem;
 }
 .smallHeader{
     font-weight: 400;
@@ -38,6 +38,9 @@
     border: none;
     outline: none;
    
+}
+.sideA{
+    width: 514px;
 }
 .buttonNumber{
     width: 70%;
@@ -63,4 +66,14 @@
     object-fit: cover;
     vertical-align: top;
     text-align: left;
+}
+
+.heading {
+    margin-top: 47px;
+}
+.headingh4 {
+    font-size: 30px;
+    text-align: center;
+    color: #8c999f;
+    font-weight: 400;
 }

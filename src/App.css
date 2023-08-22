@@ -19,6 +19,9 @@ flex-direction: row;
 .w70{
   width: 70%;
 }
+.w65{
+  width: 65%;
+}
 .bet{
   justify-content: space-between;
 }
@@ -39,4 +42,13 @@ flex-direction: row;
 }
 .cy{
  color: rgb(255, 174, 0);
+}
+.displayTable{
+  display:  table;
+}
+.maxWidth{
+  max-width: 70%;
+}
+.margin0Auto{
+  margin: 0 auto;
 }

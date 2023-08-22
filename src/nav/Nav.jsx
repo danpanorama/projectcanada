@@ -5,7 +5,7 @@ import NavLinks from "./NavLinks";
 function Nav() {
   return (
     <div className="All_Nav w100 flexCol center">
-      <div className="NavBar flexRow bet w70Nav">
+      <div className="NavBar flexRow bet w65">
         <div className="logo">
           <h1>logo</h1>
         </div>

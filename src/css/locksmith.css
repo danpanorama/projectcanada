@@ -1,0 +1,109 @@
+.lock-smith {
+    background-color: rgba(148, 197, 214, 0.8);
+    height: 200px;
+}
+
+@media (min-width: 1280px){
+.containerL {
+    max-width: 1280px;
+}}
+@media (min-width: 1024px){
+.containerL {
+    max-width: 1024px;
+}}
+@media (min-width: 768px){
+.containerL {
+    max-width: 768px;
+}}
+@media (min-width: 640px){
+.containerL {
+    max-width: 640px;
+}
+}
+.containerL {
+    width: 100%;
+}
+.containerL {
+    width: 100%;
+    max-width: 1130px;
+    margin: 0 auto;
+}
+
+
+.lock-smith-img {
+    width: 230px;
+    float: left;
+    margin-top: -86px;
+}
+
+.lock-smith-imgimg {
+    vertical-align: bottom;
+}
+
+.lock-smith-left-detail {
+    float: right;
+    width: 900px;
+}
+
+.lock-smith-left {
+    width: 288px;
+    float: left;
+    margin: 58px 1px;
+}
+
+.lock-smith-lefth3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    text-align: left;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.lock-smith-right {
+    float: right;
+    margin: 36px 0;
+}
+
+.social-icon {
+    display: inline-block;
+    vertical-align: top;
+    padding: 9px 29.5px 5px 29.5px;
+    margin: 24px 21px 0 0;
+    border-right: solid 2px #d3e7ee;
+    border-left: solid 2px #d3e7ee;
+}
+.ull{
+    
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    
+}
+
+.ull  li {
+    display: inline-block;
+    margin: 0 32px 0 0;
+}
+.ull li:last-child {
+    margin-right: 0px;
+}
+.contact-detail {
+    margin-top: 34px;
+    margin-right: -3px;
+    vertical-align: top;
+    display: inline-block;
+    padding: 3px 0 5px 79px;
+    background: url(https://res.cloudinary.com/dt0sbcfc6/image/upload/v1522790801/denver/call-icon.png) left center no-repeat;
+}
+
+.contact-detail p {
+    font-size: 13px;
+    letter-spacing: 0.4px;
+    text-align: left;
+    color: #ffffff;
+}
+
+ .contact-detail p span {
+    font-weight: 800;
+    font-size: 15px;
+}
