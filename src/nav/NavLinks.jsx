@@ -4,7 +4,7 @@ import "../css/nav.css";
 
 function NavLinks() {
   return (
-    <div className="w100 flexCol center allNav_Links">
+    <div className="w100 flexCol center allNav_Links displayNone">
         <div className="flexRow w70">
             <NavLink className={'link'} >HOME</NavLink>
             <NavLink className={'link'} >SERVICES</NavLink>

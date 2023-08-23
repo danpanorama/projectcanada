@@ -3,7 +3,7 @@ import "../../css/home.css";
 function Opening() {
   return (
     <div className="openImage flexCol acenter ">
-      <div className="w70 flexRow bet marginTop70">
+      <div className="w70 flexRowToCol bet marginTop70">
         <div className="sideA ">
           <div className="header">
             <h1 className="headerH1 cw w80 marginBottom lineHeight">FRONT RANGE LOCKSMITH DENVER</h1>
