@@ -64,3 +64,41 @@
    
     
 }
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px){
+.content .why-choose-us .choose-row .description, .content .why-choose-us .choose-row:nth-child(even) .description {
+    padding: 0 15px;
+}}
+@media only screen and (max-width: 1024px){
+.content .why-choose-us .choose-row:nth-child(even) .description {
+    margin: 0px;
+    padding: 0px;
+}}
+.content .why-choose-us .choose-row:nth-child(even) .description {
+    margin-left: 0px;
+    margin-right: -60px;
+    padding-left: 60px;
+}
+@media only screen and (max-width: 1024px){
+.content .why-choose-us .choose-row .description {
+    width: 100%;
+    padding: 0px;
+    margin-left: 0px;
+}}
+.content .why-choose-us .choose-row .description {
+    position: relative;
+    z-index: 1;
+    margin-left: -60px;
+    width: 739px;
+    background-color: rgba(148, 197, 214, 0.1);
+    float: left;
+    padding: 53px 98px;
+}

@@ -7,6 +7,7 @@ import DetailFirst from '../components/detailscomponents/DetailFirst';
 import DetailRow from '../components/detailscomponents/DetailRow';
 import LockSmith from '../components/home/LockSmith';
 import VisitBlog from '../components/home/VisitBlog';
+import FooterAll from '../components/footer/FooterAll';
 
 function HomeScreen() {
   return (
@@ -47,6 +48,8 @@ image={'https://res.cloudinary.com/dt0sbcfc6/image/upload/v1571928863/denver/com
    <LockSmith/>
 
    <VisitBlog/>
+
+   <FooterAll/>
  
     </div>
   );
