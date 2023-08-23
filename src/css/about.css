@@ -211,7 +211,7 @@
 .about-banner {
     position: relative;
     padding: 39px 0 36px 0;
-    background: url(../images/about-banner.png) left top no-repeat;
+    /* background: url(../images/about-banner.png) left top no-repeat; */
     background-size: cover;
 }
 .about-banner h1 {

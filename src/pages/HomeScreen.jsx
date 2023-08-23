@@ -13,7 +13,7 @@ function HomeScreen() {
     <div className="home">
       <Opening/>
       <br /><br /><br />
-      <div className="w65 margin0Auto flexCol">
+      <div className="containerL margin0Auto flexCol">
             <AboutSection/>
 <CallBtn class={'borderBottom'} />
 <ChooseRow/>
